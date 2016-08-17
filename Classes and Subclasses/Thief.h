@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Novice.h"
 
-@interface Thief : NSObject {
+@interface Thief : Novice {
 
     NSString * _galaxy;
     

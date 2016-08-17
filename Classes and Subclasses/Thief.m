@@ -5,9 +5,7 @@
 //  Created by Andrew Barber on 8/17/16.
 //  Copyright © 2016 Invictus. All rights reserved.
 //
-
 #import "Thief.h"
-#import "Novice.h"
 
 @implementation Thief
 

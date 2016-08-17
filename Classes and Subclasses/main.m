@@ -16,7 +16,7 @@ int main(int argc, const char * argv[]) {
         Thief *person = [[Thief alloc] initWithName:@"Joey"
                                                galaxy:@"Andromeda"];
         NSLog(@"Hi, my name is %@", person);
-        NSLog(@"I am from the galazy %@", [person galaxy]);
+        NSLog(@"I am from the galaxy %@", [person galaxy]);
         
     }
     return 0;
