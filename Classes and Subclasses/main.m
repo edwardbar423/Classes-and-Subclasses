@@ -7,11 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Novice.h"
+#import "Thief.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+        Thief *person = [[Thief alloc] initWithName:@"Joey"
+                                               galaxy:@"Andromeda"];
+        NSLog(@"Hi, my name is %@", person);
+        NSLog(@"I am from the galazy %@", [person galaxy]);
+        
     }
     return 0;
 }
