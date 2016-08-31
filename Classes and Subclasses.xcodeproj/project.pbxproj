@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		49257DE71D64F14600540BA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49257DE61D64F14600540BA3 /* main.m */; };
-		49257DEF1D64F2BB00540BA3 /* Novice.m in Sources */ = {isa = PBXBuildFile; fileRef = 49257DEE1D64F2BB00540BA3 /* Novice.m */; };
-		49257DF21D65119200540BA3 /* Thief.m in Sources */ = {isa = PBXBuildFile; fileRef = 49257DF11D65119200540BA3 /* Thief.m */; };
+		49257DEF1D64F2BB00540BA3 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 49257DEE1D64F2BB00540BA3 /* Character.m */; };
+		49257DF21D65119200540BA3 /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = 49257DF11D65119200540BA3 /* Human.m */; };
+		49257DF51D652D0400540BA3 /* Thief.m in Sources */ = {isa = PBXBuildFile; fileRef = 49257DF41D652D0400540BA3 /* Thief.m */; };
+		49FE42341D76774D00179D95 /* Chaser.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FE42331D76774D00179D95 /* Chaser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,10 +29,14 @@
 /* Begin PBXFileReference section */
 		49257DE31D64F14600540BA3 /* Classes and Subclasses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Classes and Subclasses"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49257DE61D64F14600540BA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		49257DED1D64F2BB00540BA3 /* Novice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Novice.h; sourceTree = "<group>"; };
-		49257DEE1D64F2BB00540BA3 /* Novice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Novice.m; sourceTree = "<group>"; };
-		49257DF01D65119200540BA3 /* Thief.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thief.h; sourceTree = "<group>"; };
-		49257DF11D65119200540BA3 /* Thief.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thief.m; sourceTree = "<group>"; };
+		49257DED1D64F2BB00540BA3 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		49257DEE1D64F2BB00540BA3 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		49257DF01D65119200540BA3 /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		49257DF11D65119200540BA3 /* Human.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
+		49257DF31D652D0400540BA3 /* Thief.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thief.h; sourceTree = "<group>"; };
+		49257DF41D652D0400540BA3 /* Thief.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thief.m; sourceTree = "<group>"; };
+		49FE42321D76774D00179D95 /* Chaser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chaser.h; sourceTree = "<group>"; };
+		49FE42331D76774D00179D95 /* Chaser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chaser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				49257DE61D64F14600540BA3 /* main.m */,
-				49257DED1D64F2BB00540BA3 /* Novice.h */,
-				49257DF01D65119200540BA3 /* Thief.h */,
-				49257DF11D65119200540BA3 /* Thief.m */,
-				49257DEE1D64F2BB00540BA3 /* Novice.m */,
+				49257DED1D64F2BB00540BA3 /* Character.h */,
+				49257DEE1D64F2BB00540BA3 /* Character.m */,
+				49257DF01D65119200540BA3 /* Human.h */,
+				49257DF11D65119200540BA3 /* Human.m */,
+				49257DF31D652D0400540BA3 /* Thief.h */,
+				49257DF41D652D0400540BA3 /* Thief.m */,
+				49FE42321D76774D00179D95 /* Chaser.h */,
+				49FE42331D76774D00179D95 /* Chaser.m */,
 			);
 			path = "Classes and Subclasses";
 			sourceTree = "<group>";
@@ -129,9 +139,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49257DF21D65119200540BA3 /* Thief.m in Sources */,
+				49257DF21D65119200540BA3 /* Human.m in Sources */,
+				49257DF51D652D0400540BA3 /* Thief.m in Sources */,
 				49257DE71D64F14600540BA3 /* main.m in Sources */,
-				49257DEF1D64F2BB00540BA3 /* Novice.m in Sources */,
+				49257DEF1D64F2BB00540BA3 /* Character.m in Sources */,
+				49FE42341D76774D00179D95 /* Chaser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +270,7 @@
 				49257DEC1D64F14600540BA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

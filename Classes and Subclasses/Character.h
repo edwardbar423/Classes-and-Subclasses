@@ -8,13 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Novice : NSObject {
+@interface Character : NSObject {
     
-        NSString* _name;
-    
+    NSString *_name;
 }
 
--(instancetype)initWithName:(NSString*)name NS_DESIGNATED_INITIALIZER;
+-(instancetype)initWithName:(NSString*)name;
+
 -(NSString*)name;
 
 @end
