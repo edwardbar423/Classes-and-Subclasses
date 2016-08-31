@@ -16,6 +16,7 @@
     self = [super init];
     if (self) {
         _name = name;
+        _items = [[NSMutableArray alloc] init];
     }
     
     return self;

@@ -13,6 +13,9 @@
     NSString *_name;
 }
 
+@property NSNumber *hitPoints;
+@property NSMutableArray *items;
+
 -(instancetype)initWithName:(NSString*)name;
 
 -(NSString*)name;
